@@ -13,7 +13,7 @@ public class GameController {
 
     private void play() {
         while (true) {
-            List<Integer> list = computer.makeRandomNumber();
+            computer.makeRandomNumber();
         }
     }
 }
